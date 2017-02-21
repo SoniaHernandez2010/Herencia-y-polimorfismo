@@ -9,8 +9,25 @@ public class Principal
 {
     public static void main(String [] args)
     {
-        Triangulo t1 = new Triangulo(3, 4);
-        t1.calculaArea();
-        System.out.println("El area del triangulo es:" + t1.accedeArea());
+        Triangulo triangulo1 = new Triangulo(3, 4); 
+        Cuadrado cuadrado1 = new Cuadrado(5); 
+        Circulo circulo1 = new Circulo(5);
+        
+        Figura [] figuras = new Figura[3];
+    
+        figuras[0] = triangulo1;
+        figuras[1] = circulo1;
+        figuras[2] = cuadrado1;
+        
+        for(int i = 0; i < figuras.length; i++)
+        {
+            figuras[i].calculaArea();
+        }
+        
+        for(int i = 0; i < figuras.length; i++)
+        {
+            figuras[i].accedeArea();
+        }
     }
+    
 }
