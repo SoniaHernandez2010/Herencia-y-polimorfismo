@@ -39,6 +39,10 @@ public class Principal
             f.accedeArea();
         }
         
+        for(Figura f: figuras)
+        {
+            System.out.println(f.dimeInfo());
+        }
     }
     
 }

@@ -23,4 +23,10 @@ public class Figura
     {
         System.out.println("Ups!");
     }
+    
+    public String dimeInfo()
+    {
+        return "" + area;
+    }
+    
 }
