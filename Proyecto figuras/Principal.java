@@ -28,6 +28,17 @@ public class Principal
         {
             figuras[i].accedeArea();
         }
+        
+        for(Figura f: figuras)
+        {
+            f.calculaArea();
+        }
+        
+        for(Figura f: figuras)
+        {
+            f.accedeArea();
+        }
+        
     }
     
 }
