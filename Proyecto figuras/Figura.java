@@ -29,4 +29,9 @@ public class Figura
         return "" + area;
     }
     
+    @Override
+    public String toString()
+    {
+        return "" + area;
+    }
 }
