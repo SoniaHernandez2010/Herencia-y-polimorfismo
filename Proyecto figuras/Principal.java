@@ -9,7 +9,7 @@ public class Principal
 {
     public static void main(String [] args)
     {
-        Triangulo triangulo1 = new Triangulo(3, 4); 
+        /* Triangulo triangulo1 = new Triangulo(3, 4); 
         Cuadrado cuadrado1 = new Cuadrado(5); 
         Circulo circulo1 = new Circulo(5);
         
@@ -43,6 +43,19 @@ public class Principal
         {
             System.out.println(f);
         }
+    }  */
+    Triangulo t1 = new Triangulo(4,5);
+    Circulo c1 = new Circulo(3);
+    Circulo c2 = new Circulo(3);
+    
+    if(c1.equals(t1))
+    {
+        System.out.println("Iguales");
+    }
+    else
+    {
+        System.out.println("Diferentes");
     }
     
+}
 }
