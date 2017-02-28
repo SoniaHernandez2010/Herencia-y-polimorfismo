@@ -1,3 +1,5 @@
+import java.awt.Graphics;
+import java.awt.Graphics2D;
 
 /**
  * Write a description of class Circulo here.
@@ -9,12 +11,7 @@ public class Circulo extends Figura
 {
     private float radio;
     
-    public Circulo(float r)
-    {
-        radio = r;
-    }
-    
-    public void calculaArea()
+    /* public void calculaArea()
     {
         area = 3.1416f * (radio * radio);
     }
@@ -41,6 +38,17 @@ public class Circulo extends Figura
         {
             return false;
         }
+    } */
+    
+    public Circulo(int x, int y, float r)
+    {
+        super(x, y);
+        radio = r;
+    }
+    
+    @Override
+    public void dibuja(Graphics g)
+    {
     }
 }
 

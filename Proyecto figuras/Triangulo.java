@@ -1,3 +1,5 @@
+import java.awt.Graphics;
+import java.awt.Graphics2D;
 
 /**
  * Write a description of class Triangulo here.
@@ -25,5 +27,10 @@ public class Triangulo extends Figura
     public String toString()
     {
         return "Triangulo con area =" + super.toString();
+    }
+    
+    @Override
+    public void dibuja(Graphics g)
+    {
     }
 }
