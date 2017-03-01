@@ -12,7 +12,7 @@ public class Triangulo extends Figura
     private float base;
     private float altura;
     
-    public Triangulo(float a, float b)
+    /* public Triangulo(float a, float b)
     {
         base = b;
         altura = a;
@@ -27,6 +27,12 @@ public class Triangulo extends Figura
     public String toString()
     {
         return "Triangulo con area =" + super.toString();
+    } */
+    public Triangulo(int x, int y, float b, float a)
+    {
+        super(x, y);
+        base = b;
+        altura = a;
     }
     
     @Override

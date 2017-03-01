@@ -43,7 +43,7 @@ public class Principal
         {
             System.out.println(f);
         }
-    }  */
+    }
     Triangulo t1 = new Triangulo(4,5);
     Circulo c1 = new Circulo(3);
     Circulo c2 = new Circulo(3);
@@ -55,7 +55,7 @@ public class Principal
     else
     {
         System.out.println("Diferentes");
-    }
+    }*/
     
 }
 }
