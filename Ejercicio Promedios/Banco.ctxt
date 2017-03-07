@@ -1,2 +1,6 @@
 #BlueJ class context
-numComments=0
+comment0.params=
+comment0.target=Banco()
+comment1.params=c
+comment1.target=void\ agregaCuenta(CuentaBancaria)
+numComments=2
